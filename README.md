@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Next to Go Races App is a single-page application (SPA) that displays upcoming races from different categories, It allows users to see the next five races per category, sorted by start time with countdown and auto fetching new races.
+The Next to Go Races App is a single-page application (SPA) designed to display upcoming races from 3 categories. It allows users to view the next five races per category, sorted by start time, with a countdown timer. Races are automatically removed one minute after they start, and the app fetches new races to maintain a minimum of five races per category.
 
 ## Features
 
