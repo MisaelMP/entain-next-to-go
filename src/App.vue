@@ -19,7 +19,7 @@ onMounted(() => {
   raceStore.loadRaces()
   setInterval(() => {
     raceStore.removeExpiredRaces()
-  }, 30000) // Clean races every 30 seconds
+  }, 30000)
 })
 </script>
 
