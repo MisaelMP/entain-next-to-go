@@ -42,7 +42,7 @@ The Next to Go Races App is a single-page application (SPA) designed to display 
 npm run dev
 ```
 
-### Testting
+### Testing
 
 The app uses Vitest for testing. Just run
 
