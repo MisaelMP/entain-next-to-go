@@ -1,10 +1,10 @@
 import axios from 'axios'
-
 export interface Race {
   meeting_name: string
   race_number: number
   advertised_start: { seconds: number }
   category_id: string
+  race_id: string
 }
 
 export async function fetchRaces(
