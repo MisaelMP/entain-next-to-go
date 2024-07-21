@@ -18,8 +18,13 @@ describe('RaceList', () => {
         race_number: 1,
         advertised_start: { seconds: Math.floor(Date.now() / 1000) + 3600 },
         category_id: '4a2788f8-e825-4d36-9894-efd4baf1cfae'
+      } as {
+        race_id: string
+        meeting_name: string
+        race_number: number
+        advertised_start: { seconds: number }
+        category_id: string
       }
-      // Add more races as needed
     ]
 
     const wrapper = mount(RaceList)
