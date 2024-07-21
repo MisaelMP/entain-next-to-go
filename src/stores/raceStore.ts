@@ -7,7 +7,7 @@ export interface Category {
   name: string
 }
 
-interface RaceState {
+export interface RaceState {
   races: Race[]
   categories: Category[]
   selectedCategory: string | null

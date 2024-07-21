@@ -9,7 +9,7 @@
 
 <script setup lang="ts">
 import { onMounted, onUnmounted, ref, watch, computed } from 'vue'
-import type { Race } from '@/stores/raceStore'
+import type { Race } from '@/services/raceService'
 import { useRaceStore } from '@/stores/raceStore'
 
 const props = defineProps<{ race: Race }>()
