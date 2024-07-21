@@ -65,8 +65,9 @@ export const useRaceStore = defineStore('race', {
       let totalNeeded = 0
       let fetchCount = 10
 
-      while (true) {
-        const neededCounts = this.categories.map((category) => {
+      const shouldContinue = true
+      while (shouldContinue) {
+        this.categories.map((category) => {
           const currentCount =
             category.id === 'all'
               ? this.races.length

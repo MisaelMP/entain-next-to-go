@@ -1,7 +1,7 @@
 <template>
   <div id="app" class="min-h-screen bg-gray-100">
     <Navigation />
-    <div class="container mx-auto p-4 mt-20">
+    <div class="container mx-auto p-4" :style="{ marginTop: 'var(--nav-height)' }">
       <RaceList />
     </div>
   </div>
