@@ -11,6 +11,7 @@ The Next to Go Races App is a single-page application (SPA) designed to display 
 - Removes expired races (races that have started more than a minute ago).
 - Automatically fetches more races to ensure a minimum of five races per category.
 - Responsive design using Tailwind CSS.
+- Manage the app state using Pinia Store.
 
 ## Installation
 
