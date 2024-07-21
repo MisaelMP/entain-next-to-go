@@ -41,6 +41,14 @@ The Next to Go Races App is a single-page application (SPA) designed to display 
 npm run dev
 ```
 
+### Testting
+
+The app uses Vitest for testing. Just run
+
+```sh
+npm run test:unit
+```
+
 ### License
 
 This project is licensed under the MIT License.
