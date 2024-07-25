@@ -10,5 +10,5 @@ import { useRaceStore } from '@/stores/raceStore'
 import RaceItem from './RaceItem.vue'
 
 const raceStore = useRaceStore()
-const filteredRaces = computed(() => raceStore.filterRaces())
+const filteredRaces = computed(() => raceStore.filteredRaces)
 </script>
